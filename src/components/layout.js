@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: 'Verdana';
+    font-family: 'Montserrat';
     background: ${({ theme }) => theme.colors.light};
     color: ${({ theme }) => theme.colors.dark};
   }

@@ -24,12 +24,20 @@ module.exports = {
         background_color: `#D9D9D9`,
         theme_color: `#D9D9D9`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`,
       },
     },
-    `gatsby-plugin-styled-components`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `montserrat`,
+          `source sans pro\:300,400,400i,700` 
+        ],
+        display: 'swap'
+      },
+    },
   ],
 }
