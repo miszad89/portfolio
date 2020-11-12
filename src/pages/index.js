@@ -6,7 +6,8 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <p>Strona główna</p>
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage  
