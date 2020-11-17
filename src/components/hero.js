@@ -4,8 +4,14 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 
 const HeroImgWrapper = styled.div`
+  margin: 0 auto;
   width: 50%;
-  mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
+  mask-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(0, 0, 0, 1) 100%
+  );
 `
 
 const HeroImg = () => {
