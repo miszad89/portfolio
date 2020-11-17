@@ -13,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -32,11 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `montserrat`,
-          `source sans pro\:300,400,400i,700` 
-        ],
-        display: 'swap'
+        fonts: [`montserrat`, `source sans pro\:300,400,400i,700`],
+        display: "swap",
       },
     },
   ],
