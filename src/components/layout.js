@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 700;
     color: ${({ theme }) => theme.colors.dark};
     opacity: 1;
-    transition: opacity 0.2s ease-out;
+    transition: opacity 0.15s ease-out;
   }
 
   a:hover {

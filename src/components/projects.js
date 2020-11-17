@@ -1,7 +1,12 @@
 import React from "react"
 
+import Header from "../components/header"
+import Section from "./section"
+
 const Projects = () => (
-    <h2>Moje projekty</h2>
+  <Section>
+    <Header>Moje projekty</Header>
+  </Section>
 )
 
 export default Projects

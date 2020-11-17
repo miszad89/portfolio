@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const StyledWrapper = styled.div`
-margin: 3rem auto;
+text-align: center;
 `
 
 const Section = ({ children }) => <StyledWrapper>{children}</StyledWrapper>
