@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import Section from "../components/section"
 import HeroImg from "../components/hero"
 import WelcomeText from "../components/welcome"
+import Projects from "../components/projects"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +14,12 @@ const IndexPage = () => (
     <Section>
       <HeroImg />
       <WelcomeText />
+    </Section>
+    <Section>
+      <Projects />
+    </Section>
+    <Section>
+      <Contact />
     </Section>
   </Layout>
 )
