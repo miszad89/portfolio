@@ -3,12 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
-const HeroWrapper = styled.div`
+const HeroImgWrapper = styled.div`
   width: 50%;
   mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
 `
 
-const Hero = () => {
+const HeroImg = () => {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "me.png" }) {
@@ -22,10 +22,10 @@ const Hero = () => {
   `)
 
   return (
-    <HeroWrapper>
+    <HeroImgWrapper>
       <Img fluid={data.file.childImageSharp.fluid} alt="Hero image" />
-    </HeroWrapper>
+    </HeroImgWrapper>
   )
 }
 
-export default Hero
+export default HeroImg

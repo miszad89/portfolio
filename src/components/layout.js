@@ -17,11 +17,16 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a {
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: 700;
     color: ${({ theme }) => theme.colors.dark};
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
   }
 
   a:hover {
-    color: ${({ theme }) => theme.colors.darkGrey};
+    opacity: 0.3;
   }  
 `
 const StyledWrapper = styled.div`

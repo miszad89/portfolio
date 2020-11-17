@@ -2,14 +2,15 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero"
+import HeroImg from "../components/hero"
+import WelcomeText from "../components/welcome"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero />
-    <p>Strona główna</p>
+    <HeroImg />
+    <WelcomeText />
   </Layout>
 )
 
-export default IndexPage  
+export default IndexPage
