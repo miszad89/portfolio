@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import About from "../components/about"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
+import Footer from "../components/footer"
 
 const StyledHeader = styled.h1`
   text-align: center;
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <About />
     <Projects />
     <Contact />
+    <Footer />
   </Layout>
 )
 
