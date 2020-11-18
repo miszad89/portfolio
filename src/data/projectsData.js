@@ -36,7 +36,7 @@ const ProjectsData = [
     description: `
             <p>To jest ta strona.</p>
             `,
-    repositoryURL: "https://github.com/miszad89/czterylapy",
+    repositoryURL: "https://github.com/miszad89/portfolio",
     imgURL: "tujko.png",
   },
 ]
