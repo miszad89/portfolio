@@ -10,12 +10,13 @@ import Footer from "../components/footer"
 
 const StyledHeader = styled.h1`
   text-align: center;
+  margin: 3rem 3rem 0;
 `
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Michał Drankiewicz - front-end developer" />
-    <StyledHeader>Michał Drankiewicz - front-end developer</StyledHeader>
+    <StyledHeader>Michał Drankiewicz <br />front-end developer</StyledHeader>
     <About />
     <Projects />
     <Contact />

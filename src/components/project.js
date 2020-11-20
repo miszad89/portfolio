@@ -12,7 +12,9 @@ const ImgWrapper = styled.div`
   }
 `
 
-const StyledWrapper = styled.div``
+const StyledWrapper = styled.div`
+margin: 2rem;
+`
 
 const Project = props => {
   const { name, pageURL, description, repositoryURL, imgURL } = props

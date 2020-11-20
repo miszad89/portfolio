@@ -16,15 +16,19 @@ const LinksWrapper = styled.div`
   flex-direction: column;
 `
 
+const StyledP = styled.p`
+  margin: 2rem;
+`
+
 const About = () => (
   <Section>
+    <Header>O mnie</Header>
     <StyledWrapper>
       <HeroImg />
-      <Header>O mnie</Header>
-      <p>
+      <StyledP>
         Nazywam się <strong>Michał Drankiewicz</strong>. Zajmuję się tworzeniem
         aplikacji webowych oraz stron internetowych.
-      </p>
+      </StyledP>
       <LinksWrapper>
         <Link to="/">Moje projekty</Link>
         <Link to="/">Curriculum vitae</Link>
