@@ -37,7 +37,7 @@ const ProjectsData = [
             <p>To jest ta strona.</p>
             `,
     repositoryURL: "https://github.com/miszad89/portfolio",
-    imgURL: "tujko.png",
+    imgURL: "portfolio.png",
   },
 ]
 
