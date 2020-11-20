@@ -8,7 +8,7 @@ const ProjectsData = [
             <p>Projekt niekomercyjny.</p>
         `,
     repositoryURL: "https://github.com/miszad89/tujko",
-    imgURL: "tujko.png",
+    imgURL: "tujko.jpg",
   },
   {
     name: "Cztery Łapy",
@@ -19,7 +19,7 @@ const ProjectsData = [
             <p>Projekt niekomercyjny.</p>
         `,
     repositoryURL: "https://github.com/miszad89/czterylapy",
-    imgURL: "czterylapy.png",
+    imgURL: "czterylapy.jpg",
   },{
     name: "Zaufajni",
     pageURL: "https://miszad89.github.io/zaufajni/",
@@ -29,7 +29,7 @@ const ProjectsData = [
             <p>Projekt niekomercyjny.</p>
         `,
     repositoryURL: "https://github.com/miszad89/zaufajni",
-    imgURL: "zaufajni.png",
+    imgURL: "zaufajni.jpg",
   },
   {
     name: "Portfolio",
@@ -37,7 +37,7 @@ const ProjectsData = [
             <p>To jest ta strona.</p>
             `,
     repositoryURL: "https://github.com/miszad89/portfolio",
-    imgURL: "portfolio.png",
+    imgURL: "portfolio.jpg",
   },
 ]
 
