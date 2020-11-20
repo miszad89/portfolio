@@ -30,7 +30,6 @@ const GlobalStyle = createGlobalStyle`
   }  
 `
 const StyledWrapper = styled.div`
-  padding: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;

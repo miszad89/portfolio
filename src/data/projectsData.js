@@ -3,7 +3,7 @@ const ProjectsData = [
     name: "Tujko",
     pageURL: "https://tujkomaster.gtsb.io/",
     description: `
-            <p>Prosta strona (aplikacja) zakładu naprawy felg.</p>
+            <p>Prosta strona zakładu naprawy felg.</p>
             <p>Oryginalna strona to https://www.tujko.pl/.</p>
             <p>Projekt niekomercyjny.</p>
         `,
