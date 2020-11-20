@@ -11,6 +11,10 @@ import Footer from "../components/footer"
 const StyledHeader = styled.h1`
   text-align: center;
   margin: 3rem 3rem 0;
+  ${({ theme }) => theme.media.tablet} {
+    margin: 5rem auto 0;
+  }
+
 `
 
 const IndexPage = () => (

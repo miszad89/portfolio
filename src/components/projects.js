@@ -10,6 +10,10 @@ import ProjectsData from "../data/projectsData"
 const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  ${({ theme }) => theme.media.tablet} {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 `
 
 const Projects = () => (

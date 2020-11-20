@@ -14,6 +14,7 @@ const ImgWrapper = styled.div`
 
 const StyledWrapper = styled.div`
 margin: 2rem;
+max-width: 300px;
 `
 
 const Project = props => {

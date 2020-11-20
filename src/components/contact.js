@@ -9,6 +9,10 @@ import ContactData from "../data/contactData"
 const StyledSpan = styled.span`
   display: flex;
   flex-direction: column;
+  ${({ theme }) => theme.media.tablet} {
+    display: inline-block;
+    margin: 2rem 0;
+  }
 `
 
 const Contact = () => (

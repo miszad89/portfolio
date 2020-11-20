@@ -9,6 +9,10 @@ import HeroImg from "./hero"
 const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  ${({ theme }) => theme.media.tablet} {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 `
 
 const LinksWrapper = styled.div`
@@ -16,8 +20,8 @@ const LinksWrapper = styled.div`
   flex-direction: column;
 `
 
-const StyledP = styled.p`
-  margin: 2rem;
+const TextWrapper = styled.p`
+  margin: auto;
 `
 
 const About = () => (
@@ -25,15 +29,17 @@ const About = () => (
     <Header>O mnie</Header>
     <StyledWrapper>
       <HeroImg />
-      <StyledP>
-        Nazywam się <strong>Michał Drankiewicz</strong>. Zajmuję się tworzeniem
-        aplikacji webowych oraz stron internetowych.
-      </StyledP>
-      <LinksWrapper>
-        <Link to="/">Moje projekty</Link>
-        <Link to="/">Curriculum vitae</Link>
-        <Link to="/">Dane kontaktowe</Link>
-      </LinksWrapper>
+      <TextWrapper>
+        <p>
+          Nazywam się <strong>Michał Drankiewicz</strong>. Zajmuję się
+          tworzeniem aplikacji webowych oraz stron internetowych.
+        </p>
+        <LinksWrapper>
+          <Link to="/">Moje projekty</Link>
+          <Link to="/">Curriculum vitae</Link>
+          <Link to="/">Dane kontaktowe</Link>
+        </LinksWrapper>
+      </TextWrapper>
     </StyledWrapper>
   </Section>
 )

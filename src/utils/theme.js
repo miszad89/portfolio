@@ -5,4 +5,8 @@ export const theme = {
       darkGrey: "#595959",
       dark: "#0D0D0D",
   },
+  media: {
+    tablet: "@media (min-width: 728px)",
+    desktop: "@media (min-width: 1024px)",
+}
 }
