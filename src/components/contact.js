@@ -17,7 +17,9 @@ const StyledSpan = styled.span`
 
 const Contact = () => (
   <Section>
-    <Header>Dane kontaktowe</Header>
+    <div id="contact">
+      <Header>Dane kontaktowe</Header>
+    </div>
     {ContactData.map(i => (
       <StyledSpan key={i.name}>
         <a href={i.href}>

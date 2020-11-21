@@ -18,7 +18,9 @@ const StyledWrapper = styled.div`
 
 const Projects = () => (
   <Section>
-    <Header>Moje projekty</Header>
+    <div id="projects">
+      <Header>Moje projekty</Header>
+    </div>
     <StyledWrapper>
       {ProjectsData.map(i => (
         <Project

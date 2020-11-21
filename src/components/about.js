@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import Header from "./header"
 import Section from "./section"
@@ -35,9 +35,9 @@ const About = () => (
           tworzeniem aplikacji webowych oraz stron internetowych.
         </p>
         <LinksWrapper>
-          <Link to="/">Moje projekty</Link>
-          <Link to="/">Curriculum vitae</Link>
-          <Link to="/">Dane kontaktowe</Link>
+          <AnchorLink to="/#projects">Moje projekty</AnchorLink>
+          <a href={`CV.pdf`}>Curriculum vitae</a>
+          <AnchorLink to="/#contact">Dane kontaktowe</AnchorLink>
         </LinksWrapper>
       </TextWrapper>
     </StyledWrapper>
