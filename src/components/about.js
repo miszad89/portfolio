@@ -32,11 +32,11 @@ const About = () => (
       <TextWrapper>
         <p>
           Nazywam się <strong>Michał Drankiewicz</strong>. Zajmuję się
-          tworzeniem aplikacji webowych oraz stron internetowych.
+          tworzeniem aplikacji webowych oraz stron internetowych. 
         </p>
         <LinksWrapper>
           <AnchorLink to="/#projects">Moje projekty</AnchorLink>
-          <a href={`CV.pdf`}>Curriculum vitae</a>
+          <a href={`CV Michał Drankiewicz.pdf`}>Curriculum vitae</a>
           <AnchorLink to="/#contact">Dane kontaktowe</AnchorLink>
         </LinksWrapper>
       </TextWrapper>

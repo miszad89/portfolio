@@ -17,10 +17,15 @@ const StyledHeader = styled.h1`
 
 `
 
+const StyledSpan = styled.span`
+  font-weight: 300;
+  font-size: 1.5rem;
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Michał Drankiewicz - front-end developer" />
-    <StyledHeader>Michał Drankiewicz <br />front-end developer</StyledHeader>
+    <StyledHeader>Michał Drankiewicz <br /><StyledSpan>front-end developer</StyledSpan></StyledHeader>
     <About />
     <Projects />
     <Contact />
