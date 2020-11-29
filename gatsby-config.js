@@ -39,5 +39,12 @@ module.exports = {
     },
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-anchor-links`,
+    {
+      resolve: `gatsby-plugin-scroll-indicator`,
+      options: {
+        color: "#0D0D0D",
+        height: "3px",
+      },
+    },
   ],
 }
