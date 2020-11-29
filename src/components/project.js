@@ -4,17 +4,21 @@ import styled from "styled-components"
 const ImgWrapper = styled.div`
   max-width: 80%;
   margin: auto;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transition: filter 0.15s ease-out;
 
   &:hover {
     filter: grayscale(0%);
   }
+
+  ${({ theme }) => theme.media.tablet} {
+    filter: grayscale(100%);
+  }
 `
 
 const StyledWrapper = styled.div`
-margin: 2rem;
-max-width: 300px;
+  margin: 2rem;
+  max-width: 300px;
 `
 
 const Project = props => {

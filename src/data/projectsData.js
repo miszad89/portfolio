@@ -11,6 +11,17 @@ const ProjectsData = [
     imgURL: "tujko.jpg",
   },
   {
+    name: "Zaufajni",
+    pageURL: "https://miszad89.github.io/zaufajni/",
+    description: `
+                <p>Prosta strona pizzerii.</p>
+                <p>Oryginalna strona to http://www.zaufajni.pl/.</p>
+                <p>Projekt niekomercyjny.</p>
+            `,
+    repositoryURL: "https://github.com/miszad89/zaufajni",
+    imgURL: "zaufajni.jpg",
+  },
+  {
     name: "Cztery Łapy",
     pageURL: "https://miszad89.github.io/czterylapy/",
     description: `
@@ -20,16 +31,6 @@ const ProjectsData = [
         `,
     repositoryURL: "https://github.com/miszad89/czterylapy",
     imgURL: "czterylapy.jpg",
-  },{
-    name: "Zaufajni",
-    pageURL: "https://miszad89.github.io/zaufajni/",
-    description: `
-            <p>Prosta strona pizzerii.</p>
-            <p>Oryginalna strona to http://www.zaufajni.pl/.</p>
-            <p>Projekt niekomercyjny.</p>
-        `,
-    repositoryURL: "https://github.com/miszad89/zaufajni",
-    imgURL: "zaufajni.jpg",
   },
   {
     name: "Portfolio",
